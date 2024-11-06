@@ -1,39 +1,38 @@
-<!-- @format -->
+# sv
 
-# AI Assisted Daily Life Helper
+Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
-An assistive technology application designed to support people with mental disabilities in managing their daily routines, schedules, and habits.
+## Creating a project
 
-## 🎯 Project Overview
+If you're seeing this, you've probably already done this step. Congrats!
 
-This application aims to enhance independence and quality of life for individuals with mental disabilities by providing:
+```bash
+# create a new project in the current directory
+npx sv create
 
-- Personalized schedule management
-- Daily routine assistance
-- Habit formation support
-- Easy-to-use interface designed for accessibility
+# create a new project in my-app
+npx sv create my-app
+```
 
-## 🚀 Features
+## Developing
 
-- [ ] Your research based personal voice assistant
-- [ ] Customizable daily routines
-- [ ] Habit tracking
-- [ ] Reminder system
-- [ ] Simple and accessible user interface
-- [ ] Voice command support
-- [ ] Picture-based communication options
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-## 🛠️ Technology Stack
+```bash
+npm run dev
 
-- Frontend:
-- Backend:
-- Database:
-- AI/ML:
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
 
-## 📱 Screenshots
+## Building
 
-[Coming soon]
+To create a production version of your app:
 
-## 🏃‍♂️ Getting Started
+```bash
+npm run build
+```
 
-### Prerequisites
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
